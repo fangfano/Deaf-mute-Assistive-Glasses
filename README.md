@@ -116,6 +116,7 @@
 #### 将pt模型转为onnx模型
 `python export.py --weights ./runs/train/exp/weights/best.pt --include onnx --opset 12 --imgsz 640 640`
 
+---
 
 ### docker环境中需要做的事情
 rk提供的模型转换工具最好在docker环境中执行，保证本地环境的清洁
@@ -154,9 +155,12 @@ rk提供的模型转换工具最好在docker环境中执行，保证本地环境
 
 执行的结果就是本地生成一个best.rknn
 
+---
+
 ### 接下来
 将best.rknn拷贝到orangepi 3B中的项目文件夹下，就可以用起来啦，太棒啦:heart_eyes:
 
+---
 
 ### 可能使用的其他指令：
 `查看是否有npu驱动：ls -l /dev/rknpu`
