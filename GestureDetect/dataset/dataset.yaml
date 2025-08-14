@@ -1,0 +1,9 @@
+# 训练和验证集图片的路径 (相对于 yolov5 目录)
+train: ./dataset/images/train
+val: ./dataset/images/val
+
+# 类别数量
+nc: 9
+
+# 类别名称
+names: ['xiexie', 'wc', 'home', 'where', 'easy','welcome','eat','left','go']
